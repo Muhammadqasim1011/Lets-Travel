@@ -1,0 +1,32 @@
+.tour-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* TourCard Styles */
+.show-more-btn {
+  display: flex;
+  align-items: center;
+  margin: 1rem auto 2rem;
+}
+
+.tour-head {
+  color: #2a2a2a;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.tour-para{
+  color: #2a2a2a;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+@media (max-width:1000px){
+  .tour-head {
+    font-size: 2rem;
+  }
+}
